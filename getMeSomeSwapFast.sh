@@ -17,4 +17,4 @@ sudo chmod 600 /swapfile && \
 sudo mkswap /swapfile && \
 sudo swapon /swapfile && \
 sudo su -c " echo '                /swapfile  swap swap    defaults        0 0' >> /etc/fstab" && sudo  mount -a && \
-sudo shutdown -r 1 ; sudo rem gmssf.sh
+sudo shutdown -r 1 ; sudo rm -f gmssf.sh
